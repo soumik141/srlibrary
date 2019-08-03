@@ -1,0 +1,30 @@
+{
+    "name": "srtest/testlibrary",
+    "description": "Test Library.",
+    "keywords": ["test", "entity", "library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soumik Rana",
+            "email": "soumik141@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.1",
+        "doctrine/orm": "^2.6.2"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Srtest\\TestLibrary\\": "src/lib"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Srtest\\TestLibrary\\": "tests"
+        }
+    }
+}
