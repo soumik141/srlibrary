@@ -3,6 +3,7 @@
     "description": "Test Library.",
     "keywords": ["test", "entity", "library"],
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Soumik Rana",
